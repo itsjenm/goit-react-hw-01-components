@@ -19,11 +19,11 @@ export const App = () => {
         color: '#010101'
       }}
     >
-    <Profile data={profileData} />
-    <Statistics title="Upload stats" stats={statData} />
-    <FriendsList friends={friendData}/>
-    <TransactionHistory items={transactions} />
+      <Profile data={profileData} />
+      <Statistics title="Upload stats" stats={statData} />
+      <FriendsList friends={friendData} />
+      <TransactionHistory items={transactions} />
     </div>
-    
+
   );
 };
