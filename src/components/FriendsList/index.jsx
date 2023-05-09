@@ -2,7 +2,7 @@ import styled from './style.module.css'
 
 
 export default function FriendsList(props) {
-    console.log(props)
+    // console.log(props)
     return (
         <ul className={styled.list}>
             {props.friends.map(friend => (
