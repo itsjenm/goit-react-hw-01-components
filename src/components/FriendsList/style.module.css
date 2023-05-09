@@ -1,0 +1,44 @@
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    width: 280px;
+    height: 80px;
+}
+
+
+.avatar {
+    margin-left: 10px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+
+.status_online {
+    margin-left: 10px;
+    background-color: green;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.status_offline {
+    margin-left: 10px;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}

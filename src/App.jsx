@@ -1,13 +1,14 @@
-import Profile from "./Profile";
-import profileData from '../data/data.json'
-import statData from '../data/statistics.json'
-import Statistics from "./Statistics";
+import Profile from "./components/Profile";
+import profileData from './data/data.json'
+import statData from './data/statistics.json'
+import Statistics from "./components/Statistics";
+import FriendsList from "components/FriendsList";
+import friendData from './data/friends.json'
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -18,6 +19,8 @@ export const App = () => {
     >
     <Profile data={profileData} />
     <Statistics title="Upload stats" stats={statData} />
+    <FriendsList friends={friendData}/>
     </div>
+    
   );
 };

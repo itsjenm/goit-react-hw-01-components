@@ -2,7 +2,7 @@
 .statistics {
     width: 278px;
     border-radius: 5px;
-    overflow: hidden;
+    
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0.1;
     text-align: center;   
 }
